@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitkara University Login</title>
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://tse2.mm.bing.net/th?id=OIP.yhDWAwWU4gYBOxzvDa9U6AHaEv&pid=Api&P=0&h=180);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remember input {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #c21e56;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a31a48;
+}
+
+.forgot {
+    display: block;
+    margin-top: 10px;
+    color: #c21e56;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.privacy-policy {
+    margin-top: 10px;
+}
+
+.privacy-policy a {
+    color: #c21e56;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+.mobile-app {
+    margin-top: 0px;
+}
+
+.mobile-app p {
+    margin: 0;
+}
+
+.app-links img {
+    width: 20px;
+    margin: 5px;
+}
+
+.powered-by {
+    margin-top: 20px;
+}
+
+.powered-by p {
+    margin: 0;
+}
+
+.powered-by img {
+    width: 100px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="https://www.chitkara.edu.in/wp-content/themes/ChitkaraUniversity2021/img/logo.png" alt="Chitkara University Logo" class="logo">
+            <h1>Chitkara University Institute of Engineering & Technology</h1>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="session">Session</label>
+                <select id="session" name="session">
+                    <option value="Jul-Dec2024">Jul-Dec2024</option>
+                </select>
+                
+                <div class="remember">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Password</label>
+                </div>
+                
+                <button type="submit">Sign In</button>
+                <a href="#" class="forgot">Forgot your password? Click here</a>
+                
+                <div class="privacy-policy">
+                    <a href="#">Privacy Policy</a>
+                </div>
+                
+                <div class="mobile-app">
+                    <p>Mobile App Code : 800002</p>
+                    <div class="app-links">
+                        <a href="#"><img src="https://cuiet.codebrigade.in/images/apple_store_icon.png" alt="Apple Store"></a>
+                        <a href="#"><img src="https://cuiet.codebrigade.in/images/gplaystore_icon.png" alt="Google Play Store"></a>
+                    </div>
+                </div>
+            </form>
+            <div class="powered-by">
+                <p>Powered by</p>
+                <img src="https://cuiet.codebrigade.in//images/code-brigade-logo-small.png" alt="Code Logo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
